@@ -1,0 +1,13 @@
+.idea/
+**/*.iml
+vcs.xml
+
+bin/
+include/
+lib/
+lib64
+pyvenv.cfg
+pip-selfcheck.json
+
+logs/
+app.ini
