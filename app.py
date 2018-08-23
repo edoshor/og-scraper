@@ -3,7 +3,7 @@ from flask import Flask, request
 from flask.helpers import make_response
 from flask.json import jsonify
 
-from models import MemoryStore
+from store import MemoryStore
 
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False  # encode utf-8
